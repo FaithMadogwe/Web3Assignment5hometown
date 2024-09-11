@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,  sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+.container {  
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    background-image: url("./images/Road\ Construction.jpg");
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    color: #004080;
+}
+
+.header p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.activities {
+    text-align: center;
+}
+
+.activities h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #004080;
+}
+
+.activity {
+    display: inline-block;
+    width: 30%;
+    margin: 20px;
+   text-align: center; 
+}
+
+.activity img {
+    width: 50px;
+   height: 50px; 
+}
+
+.activity h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 10px;
+}
+
+.activity p {
+    font-size: 1em;
+    color: #666;
+}
+
+.guide {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.guide img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+.guide-text {
+    max-width: 500px;
+}
+
+.guide-text h3 {
+    font-size: 1.5em;
+    color: #004080;
+}
+
+.guide-text p {
+    font-size: 1em;
+    color: #333;
+    margin-top: 10px;
+}
+
+.guide-text strong {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #000;
+}
